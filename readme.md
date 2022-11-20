@@ -1,0 +1,2 @@
+该项目是用来实现mybatis在各个场景中使用的例子,会尽可能覆盖各个场景
+mybatis-mysql覆盖的是mysql的场景
