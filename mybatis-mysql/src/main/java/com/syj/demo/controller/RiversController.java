@@ -20,8 +20,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 public class RiversController {
-    @ApiOperation(value = "湖库营养度计算")
-    @PostMapping(value = "/lakeReservoirTrophicLevel", produces = MediaType.APPLICATION_JSON_VALUE)
+    @ApiOperation(value = "查询河流")
+    @PostMapping(value = "/queryRivers", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public String queryRivers(@RequestBody QueryRiversReq queryRiversReq) {
         return queryRiversReq.getRiverName();
