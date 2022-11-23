@@ -10,12 +10,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * <ul>
  * @description 启动类
  * </ul>
- * @className Application
+ * @className MysqlApplication
  * @createdTime 2022/11/22 13:53
  */
 @SpringBootApplication
-public class Application {
+public class MysqlApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(MysqlApplication.class, args);
     }
 }
